@@ -17,6 +17,22 @@ overfitting/leakage/cross-validation pitfalls, baseline comparisons). Evaluation
 the user most wants to strengthen, so treat it as a first-class part of every answer, not an
 afterthought.
 
+## FAQ / decision log
+
+The README has a "FAQ / decision log" section — this is where the user works through
+things they find genuinely confusing about data science practice (feature encoding,
+leakage, target construction, modelling choices) and where non-obvious project decisions
+get recorded once made. When the user asks a conceptual "why/how does this work" question
+or a "what should we do about X" modelling question:
+
+1. Answer it in chat first — correct any misconceptions directly and explain the reasoning
+   (per the evaluation-first guidance above).
+2. When there are multiple reasonable approaches, lay out the options with tradeoffs and let
+   the user pick rather than deciding for them.
+3. Once the question is answered or a decision is made, add a concise Q&A entry to the README
+   FAQ section (question as heading, short answer/reasoning below) so it persists as project
+   documentation, not just chat history.
+
 ## Current state
 
 This repository is a fresh scaffold: `src/`, `scripts/`, `tests/`, `notebooks/`, and `data/` all
